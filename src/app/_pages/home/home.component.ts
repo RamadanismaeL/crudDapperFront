@@ -23,8 +23,6 @@ export class HomeComponent implements OnInit
       this.usuarios = response.dados;
       this.usuariosGeral = response.dados;
 
-      this.usuarioDelete = response.dados;
-
       console.log(response);
     });
   }
